@@ -5,4 +5,5 @@ def find_min_in_nested_arrays(src)
   src.length.times do |index|
     new_array.push(src[index].min())
   end
+  new_array
 end
